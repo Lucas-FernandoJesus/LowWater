@@ -5,14 +5,14 @@
 @import url("./footer.css");
 
 
-:root{
-    --sistem-color : #000000;
-    --font : 'Rubik', sans-serif;
-    --size : 14px;
+:root {
+    --sistem-color: #000000;
+    --font: 'Rubik', sans-serif;
+    --size: 16px;
     --color-font: #FFFFFF;
 }
 
-body{
+body {
     background-color: var(--sistem-color);
     color: var(--color-font);
     font-family: var(--font);
@@ -22,14 +22,43 @@ body{
     height: 100%;
 }
 
-h2{
+h2 {
     font-weight: 400;
     font-size: 20px;
 }
 
-.paragrafos{
+.paragrafos {
     display: flex;
     margin-top: 17px;
-    font-size: var(--size);
     margin-right: 15vw;
+}
+
+
+@media screen and (min-width: 520px) and (max-width:1024px) {
+    body {
+        font-size: 22px;
+    }
+
+    .paragrafos {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width:1920px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .foto {
+        flex: 1;
+        text-align: right;
+        /* Alinha a foto no lado direito */
+    }
+
+    .foto img {
+        max-width: 100%;
+        height: auto;
+    }
 }

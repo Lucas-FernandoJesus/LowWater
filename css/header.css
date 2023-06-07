@@ -1,13 +1,13 @@
-.header__titles{
+.header__titles {
     font-size: 2rem;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     margin-top: 0.5%;
     font-weight: 500;
 }
 
-.header__list{
+.header__list {
     display: flex;
     justify-content: center;
     text-align: justify;
