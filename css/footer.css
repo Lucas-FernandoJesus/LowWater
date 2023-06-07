@@ -1,0 +1,12 @@
+.container__footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: 10%;
+    text-align: justify;
+}
+
+.space {
+    margin-top: 30px;
+}
