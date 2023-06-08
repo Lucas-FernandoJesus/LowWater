@@ -10,6 +10,7 @@
 .header__list {
     display: flex;
     justify-content: center;
+    font-weight: 500;
     text-align: justify;
     margin-top: 0.5%;
     padding: 15px;

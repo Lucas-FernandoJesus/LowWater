@@ -7,9 +7,10 @@
 
 :root {
     --sistem-color: #000000;
+    --color-font: #FFFFFF;
+    --color-dev: #22D4FD;
     --font: 'Rubik', sans-serif;
     --size: 16px;
-    --color-font: #FFFFFF;
 }
 
 body {
@@ -17,48 +18,21 @@ body {
     color: var(--color-font);
     font-family: var(--font);
     font-size: var(--size);
-    font-weight: 300;
+    font-weight: 400;
     width: 100%;
     height: 100%;
 }
 
 h2 {
-    font-weight: 400;
+    font-weight: 600;
     font-size: 20px;
+    margin-top: 2%;
 }
 
 .paragrafos {
     display: flex;
-    margin-top: 17px;
-    margin-right: 15vw;
-}
-
-
-@media screen and (min-width: 520px) and (max-width:1024px) {
-    body {
-        font-size: 22px;
-    }
-
-    .paragrafos {
-        font-size: 22px;
-    }
-}
-
-@media screen and (min-width: 1025px) and (max-width:1920px) {
-    .container {
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-    }
-
-    .foto {
-        flex: 1;
-        text-align: right;
-        /* Alinha a foto no lado direito */
-    }
-
-    .foto img {
-        max-width: 100%;
-        height: auto;
-    }
+    justify-items: justify;
+    align-items: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }

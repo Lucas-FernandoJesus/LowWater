@@ -1,26 +1,58 @@
 .container {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 10%;
-    margin-left: 10%;
-    text-align: justify;
-    align-items: center;
-}
-
-.space {
-    margin-top: 30px;
-}
-
-.imagem {
-    display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
-    margin-top: 5%;
-    padding: 5% 28.5%;
-    border-radius: 8px;
-    border: 2px solid var(--color-font);
+    text-align: justify;
+    flex-direction: column;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
     gap: 10px;
-    width: 25%;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img{
+    max-width: 70%;
+    max-height: 70%;
+}
+
+
+@media screen and (min-width: 520px) and (max-width:1024px) {
+    body {
+        font-size: 22px;
+    }
+
+    .paragrafos {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width:1919px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 50%;
+    }
+
+    .img {
+        flex: 1;
+        text-align: right;
+        /* Alinha a foto no lado direito */
+    }
+
+    .foto img {
+        max-width: 100%;
+        height: auto;
+    }
 }
