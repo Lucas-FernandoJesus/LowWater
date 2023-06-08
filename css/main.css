@@ -26,6 +26,18 @@
     max-height: 70%;
 }
 
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+    padding: 5% 28.5%;
+    border-radius: 8px;
+    border: 2px solid var(--color-font);
+    gap: 10px;
+    width: 25%;
+}
 
 @media screen and (min-width: 520px) and (max-width:1024px) {
     body {
@@ -38,21 +50,5 @@
 }
 
 @media screen and (min-width: 1025px) and (max-width:1919px) {
-    .container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        width: 50%;
-    }
 
-    .img {
-        flex: 1;
-        text-align: right;
-        /* Alinha a foto no lado direito */
-    }
-
-    .foto img {
-        max-width: 100%;
-        height: auto;
-    }
 }

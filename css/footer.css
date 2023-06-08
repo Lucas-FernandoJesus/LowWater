@@ -20,7 +20,7 @@
     width: 25%;
 }
 
-.footer{
+.footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,7 +36,7 @@
     text-align: center;
 }
 
-.dev{
+.dev {
     display: flex;
     justify-content: center;
     margin-top: 5%;
@@ -49,7 +49,11 @@
 
 @media screen and (min-width: 520px) and (max-width:1024px) {
     .dev {
-      flex-direction: column;
-      align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
-  }
+
+    .contact {
+        font-size: 22px;
+    }
+}

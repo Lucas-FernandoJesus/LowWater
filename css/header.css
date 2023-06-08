@@ -16,3 +16,28 @@
     padding: 15px;
     gap: 25px;
 }
+
+@media screen and (max-width: 340px){
+    .header__titles{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .header__list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 520px) and (max-width:1024px) {
+    .header__titles {
+        font-size: 3rem;
+    }
+
+    .header__list {
+        font-size: 22px;
+    }
+}
